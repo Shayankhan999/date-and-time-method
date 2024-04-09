@@ -85,3 +85,11 @@
 // var universityArray = university.split(" ");
 // document.write("Array elements: " + universityArray.join(", "));
 
+                      // question 17
+
+// Get user input
+var userInput = prompt("Enter a string:");
+
+var lastCharacter = userInput.charAt(userInput.length - 1);
+document.write(`user input:${userInput}<br>`)
+document.write("Last character of the input: " + lastCharacter);
