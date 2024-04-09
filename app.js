@@ -61,9 +61,27 @@
 // var num = Number(str);
 // document.write(`value:${str} <br>`)
 // document.write( `value:${typeof str} <br>`)
-// document.write("Converted value: " + num + "<br>");
-// document.write("Type of converted value: " + typeof num);
+// document.write(` value:  + num + <br>`);
+// document.write( `value:  + typeof num`);
                              
                              // question 9
+// var userInput = prompt("Enter a string:");
+// var capitalizedInput = userInput.toUpperCase();
+// document.write("Capitalized Input: " + capitalizedInput);
 
-                             
+                                 // quesdtion 11
+// var num = 35.36;
+// var numAsString = num.toString().replace(".", "");
+// document.write(`numnber: ${num}<br>`);
+// document.write(`Result:  ${numAsString}`);
+
+                               //   question 12
+                                // question 13
+                                // question 14
+                                //question 15
+
+                                //question 16
+// var university = "University of Karachi";
+// var universityArray = university.split(" ");
+// document.write("Array elements: " + universityArray.join(", "));
+
