@@ -231,3 +231,50 @@
 // }
 
 
+                      // CHAPTER 31 TO 34
+
+
+                           // question 1
+
+// var date = new Date()
+// document.write(date)
+
+                            // Question 2
+// var month = ["January", "February", "March", "April", "May", "June", "July", "August", "Septenter", "October", "November","December"]
+// var Currentmonth = month[new Date().getMonth()]
+// document.write(`Current month: ${Currentmonth}`)
+
+
+
+// var month = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+// var Currentmonth = month[new Date().getDay()]
+// document.write(`Current month: ${Currentmonth}`)
+
+                           // question 3
+
+// var day = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat']
+// var day = day[new Date().getDay()]
+// document.write(`Today is: ${day}`);
+
+
+                         // question 4
+
+// var day1 = 'Saturday';
+// var day2 = 'Sunday';
+// var dayarray = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+// var currentDay = dayarray[new Date().getDay()]
+// if(currentDay == day1 || currentDay == day2){
+// document.write('Its fun day')
+// }
+// else(currentDay!=day1||currentDay!=day2)
+//     document.write(`its a working day`)
+
+                        // question 5
+
+
+var day = new Date().getDay();
+if(day < 16){
+    document.write('first fifteen days of month')
+}else{
+    document.write('last fifteen days of month')
+}
